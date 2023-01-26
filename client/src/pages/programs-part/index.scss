@@ -1,0 +1,110 @@
+#progPart{
+ 
+       
+      .main{
+        text-align: center;
+   max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 ;
+  text-align: center; 
+        justify-content: center;
+        .title{
+            width: 634px;
+            height: 192px;
+            margin-left: 300px;
+            h1{
+                font-weight: 500;
+                font-size: 60px;
+            }
+            p{
+                opacity: 0.6;
+                font-weight: 400;
+                font-size: 20px;
+                padding-bottom: 50px;
+               
+            }
+
+        }
+       .all{
+    //    column-gap: 200px;
+      
+        .part1{
+           margin: 0px 0px 60px 0px;
+            display: flex;
+            width: 350px;
+                height: 300px;
+            .img1{
+                width: 634px;
+                height: 467px;
+                img{
+                    width: 634px;
+                height: 467px;
+                }
+            }
+            .text1{
+                margin-left: 150px;
+                padding: 50px 0px 0px 0px;
+                width: 300px;
+                // height: 200px;
+                h1{
+                    width: 300px;
+                    font-weight: 500;
+                // font-size: 60px;
+                // height: 200px;
+                }
+                p{
+                    opacity: 0.6;
+                font-weight: 600;
+                }
+                .icon1{
+                    i{
+                        padding: 30px;
+                        font-size: 25px;
+                        color: #7971ea;
+                    }
+                }
+            }
+        }
+        .part2{
+            margin: 0px 0px 60px 0px;
+            padding-top: 250px;
+            display: flex;
+            width: 350px;
+                height: 300px;
+            .img2{
+                width: 634px;
+                height: 467px;
+                img{
+                    width: 634px;
+                    height: 467px;
+                }
+
+            }
+            .text2{
+                margin-right: 150px;
+                padding: 50px 0px 0px 0px;
+                width: 300px;
+                // height: 200px;
+                h1{
+                    width: 300px;
+                    font-weight: 500;
+                // font-size: 60px;
+                // height: 200px;
+                }
+                p{
+                    opacity: 0.6;
+                font-weight: 600;
+                }
+                .icon2{
+                    i{
+                        padding: 30px;
+                        font-size: 25px;
+                        color: #7971ea;
+                    }
+                }
+            }
+        }
+       }
+      }
+    
+}
